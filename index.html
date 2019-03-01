@@ -10,38 +10,74 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
 </head>
 
 <body>
-    <div id="header">
+    <div class="justify-content-center row" id="title">
         <h1>Crystal Collector!</h1>
     </div>
-    <div id="instructions">
-        <p>You will be given a random number at the start of the game.</p>
-        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
-            total score.</p>
-        <p>You win the game by matching your total score to the random number. You lose the game if your total score
-            goes above the random number.</p>
-        <p>The value of each crystal is hidden from you until you click on it.</p>
-        <p>Each time when the game starts, the game will change the values of each crystal</p>
-    </div>
-    <div id="random-box"><h1><span id="random-number">0</span></h1></div>
-    <div id="win-lose">
-        <p><span id="status"></span></p>
-        <p>Wins:<span id="wins"></span></p>
-        <p>Losses:<span id="losses"></span></p>
-    </div>
-    <div id="crystal-1"><img src="assets/images/red-crystal.png" alt="Red Crystal" width="100" height="100"></div>
-    <div id="crystal-2"><img src="assets/images/blue-crystal.png" alt="Blue Crystal" width="100" height="100"></div>
-    <div id="crystal-3"><img src="assets/images/orange-crystal.png" alt="Orange Crystal" width="100" height="100"></div>
-    <div id="crystal-4"><img src="assets/images/purple-crystal.png" alt="Purple Crystal" width="100" height="100"></div>
-    <div id="score-title">
-        <p>Your total score is:</p>
-    </div>
-    <div id="score-box"><h1><span id="score">0</span></h1></div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 border border-dark rounded" id="instructions">
+                <p>You will be given a random number at the start of the game.</p>
+                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to
+                    your
+                    total score.</p>
+                <p>You win the game by matching your total score to the random number. You lose the game if your total
+                    score
+                    goes above the random number.</p>
+                <p>The value of each crystal is hidden from you until you click on it.</p>
+                <p>Each time when the game starts, the game will change the values of each crystal</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 float-left border border-dark rounded text-center" id="random-title">
+                <p>The Number to Match</p>
+            </div>
+            <div class="col-md-4 float-left border border-dark rounded text-center" id="status-title">
+                <p><span id="status"></span></p>
+            </div>
+            <div class="col-md-4 float-right border border-dark rounded text-center" id="score-title">
+                <p>Your Score</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 border border-dark rounded text-center" id="random-box">
+                <h1><span id="random-number">0</span></h1>
+            </div>
+            <div class="col-md-4 border border-dark rounded" id="win-lose">
+                <p>Wins:<b><span id="wins" class="text-success"></span></b></p>
+                <p>Losses:<b><span id="losses" class="text-danger"></span></b></p>
+            </div>
+            <div class="col-md-4 border border-dark rounded text-center" id="score-box">
+                <h1><span id="score">0</span></h1>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
 
 
-    <script src="assets/javascript/game.js"></script>
+            <div class="col-md-2"><img id="crystal-1" src="assets/images/red-crystal.png" alt="Red Crystal" width="100"
+                    height="100">
+            </div>
+            <div class="col-md-2"><img id="crystal-2" src="assets/images/blue-crystal.png" alt="Blue Crystal"
+                    width="100" height="100">
+            </div>
+            <div class="col-md-2"><img id="crystal-3" src="assets/images/orange-crystal.png" alt="Orange Crystal"
+                    width="100" height="100">
+            </div>
+            <div class="col-md-2"><img id="crystal-4" src="assets/images/purple-crystal.png" alt="Purple Crystal"
+                    width="100" height="100">
+            </div>
+        </div>
+
+    </div>
+
+
 </body>
 
 </html>

@@ -2,13 +2,12 @@ body {
     background: url("../images/dark-honeycomb.png");
     font-family: Georgia, Times, "Times New Roman", serif;
     margin: 15px;
+    
 }
 
-#header {
-    background-color: darkorange;
-    width: 350px;
+#title {
+    background-color: darkblue;
     height: 100px;
-    text-align: center;
     padding-top: 20px;
     color: white;
     margin-bottom: 15px;
@@ -16,73 +15,66 @@ body {
 
 #instructions {
     background-color: tan;
-    width: 500px;
     padding-top: 25px;
     padding-left: 15px;
     padding-bottom: 20px;
     padding-right: 15px;
 }
 
-#random-box {
+#random-title {
     background-color: green;
-    width: 300px;
-    height: 125px;
-    margin-top: 15px;
-    float: left;
     color: white;
-    padding-left: 40px;
-    padding-top: 35px;
+    height: 50px;
+    padding-top: 12px;
 }
 
-#win-lose {
+#status-title{
     background-color: cyan;
-    width: 125px;
-    height: 125px;
-    margin-top: 15px;
-    margin-left: 315px;
-    padding-left: 15px;
-    padding-top: 30px;
-}
-
-#crystal-1 {
-    margin-top: 15px;
-    float: left;
-    margin-right: 15px;
-}
-
-#crystal-2 {
-    margin-top: 15px;
-    margin-right: 15px;
-    float: left;
-}
-
-#crystal-3 {
-    margin-top: 15px;
-    margin-right: 15px;
-    float: left;
-}
-
-#crystal-4 {
-    margin-top: 15px;
+    height: 50px;
+    padding-top: 12px;
 }
 
 #score-title {
     background-color: teal;
-    margin-top: 15px;
     color: white;
     height: 50px;
-    width: 300px;
     padding-top: 12px;
-    padding-left: 10px;
+}
+
+#random-box {
+    background-color: green;
+    height: 125px;
+    color: white;
+    padding-top: 30px;
+}
+
+#win-lose {
+    background-color: cyan;
+    height: 125px;
+    padding-left: 105px;
+    padding-top: 15px;
+    font-size: 1em;
+}
+
+#wins,
+#losses {
+    font-size: 1.50em;
 }
 
 #score-box {
     background-color: teal;
-    width: 300px;
     height: 125px;
-    margin-top: 15px;
     color: white;
-    padding-left: 40px;
-    padding-top: 35px;
+    padding-top: 30px;
 
+}
+
+#crystal-1,
+#crystal-2,
+#crystal-3,
+#crystal-4 {
+    margin: 25px;
+    width: 100px;
+    height: 100px;
+    
 }
