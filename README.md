@@ -3,7 +3,7 @@
 
 ### Option One: CrystalsCollector Game (Recommended)
 
-![Crystal Collector](Images/1-CrystalCollector.jpg)
+
 
 1. [Watch the demo](https://youtu.be/yNI0l2FMeCk).
 
@@ -36,4 +36,3 @@
 
 * Each crystal should have a random hidden value between 1 - 12.
 
-### Option Two: Star Wars RPG Game (Challenge)
