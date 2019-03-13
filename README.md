@@ -11,6 +11,7 @@ Week 4 introduces the use of JQuery and manipulating elements in the DOM.  The p
 
 * HTML
 * CSS
+* Bootstrap
 * JavaScript
 * JQuery
 
