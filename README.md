@@ -5,7 +5,7 @@
 
 
 
-**[https://bcoggins78.github.io/unit-4-game/](https://bcoggins78.github.io/unit-4-game/)**.
+**[https://bcoggins78.github.io/Crystal-Collector/](https://bcoggins78.github.io/Crystal-Collector/)**.
 
 Week 4 introduces the use of JQuery and manipulating elements in the DOM.  The project was built with:
 
